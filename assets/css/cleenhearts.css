@@ -498,6 +498,20 @@ textarea {
   --bs-gutter-y: 60px;
 }
 
+.btn-primary {
+  display: inline-block;
+  background-color: #9f85f7;
+  border: 1px solid #9f85f7;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-family: Quicksand,sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff!important;
+}
+
 .cleenhearts-btn {
   position: relative;
   display: inline-block;
@@ -4817,6 +4831,7 @@ textarea {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  padding: 0 30px;
 }
 @media (max-width: 1199px) {
   .main-header__inner {
@@ -5394,8 +5409,8 @@ textarea {
 }
 .main-menu .main-menu__list > li,
 .main-menu-two .main-menu__list > li {
-  padding-top: 51px;
-  padding-bottom: 51px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: relative;
 }
 .main-menu .main-menu__list > li.dropdown > a,
